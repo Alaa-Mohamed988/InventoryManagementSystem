@@ -1,0 +1,15 @@
+﻿global using Inventory_Management_System.ViewModels;
+global using InventoryManagmentSystem.Application.DTOs;
+global using InventoryManagmentSystem.Service.CQRS.Products.Queries;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using AutoMapper;
+global using InventoryManagmentSystem.Service.CQRS.InventoryTransaction.Commands;
+global using InventoryManagmentSystem.Service.DTOs;
+global using Microsoft.AspNetCore.Authorization;
+global using InventoryManagmentSystem.Infrastructure.Identity;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.IdentityModel.Tokens;
